@@ -1,0 +1,2 @@
+rootProject.name='Asikana Network'
+include ':app'

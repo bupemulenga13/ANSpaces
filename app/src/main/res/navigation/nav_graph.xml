@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/HomeFeedFragment">
+
+    <fragment
+        android:id="@+id/HomeFeedFragment"
+        android:name="com.example.asikananetwork.ui.post.PostListFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_home_feed">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/PostDetailsFragment" />
+        <action
+            android:id="@+id/action_HomeFeedFragment_to_newPostFragment"
+            app:destination="@id/newPostFragment"
+            app:enterAnim="@anim/fragment_fade_enter"
+            app:exitAnim="@anim/fragment_close_exit" />
+    </fragment>
+    <fragment
+        android:id="@+id/PostDetailsFragment"
+        android:name="com.example.asikananetwork.ui.post.PostDetailsFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_post_details"/>
+    <fragment
+        android:id="@+id/newPostFragment"
+        android:name="com.example.asikananetwork.ui.post.NewPostFragment"
+        android:label="fragment_new_post"
+        tools:layout="@layout/fragment_new_post" />
+</navigation>

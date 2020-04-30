@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "827300852434",
+    "firebase_url": "https://asikana-network-social.firebaseio.com",
+    "project_id": "asikana-network-social",
+    "storage_bucket": "asikana-network-social.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827300852434:android:035082f1ee72bf240ab30b",
+        "android_client_info": {
+          "package_name": "com.example.asikananetwork"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "827300852434-debhcnk199661r94mkpu5lpn933jmit0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asikananetwork",
+            "certificate_hash": "306623b09ddca261a0a18cc16455c6c907b902a9"
+          }
+        },
+        {
+          "client_id": "827300852434-cpcumu9eb5jc9tfer1rjjsfd3cgvugc1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFD9b5wgSBPL8uEDS9NMJpQrmU3-6yxO0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "827300852434-cpcumu9eb5jc9tfer1rjjsfd3cgvugc1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
